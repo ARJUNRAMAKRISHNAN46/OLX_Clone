@@ -7,7 +7,7 @@ import { useNavigate } from "react-router-dom";
 
 import { db, collection, getDocs } from "../firebase";
 import Footer from "../components/Footer";
-import SubFooter from "../components/Subfooter";
+import SubFooter from "../components/SubFooter";
 
 export const Home = () => {
   const [count, setCount] = useState(4);

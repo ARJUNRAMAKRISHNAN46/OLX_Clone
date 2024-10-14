@@ -1,6 +1,6 @@
 import React from 'react'
 
-function SubFooter() {
+const SubFooter = () => {
   return (
     <div>
       <div className="bg-black h-10 md:px-24 flex justify-between">
